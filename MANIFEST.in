@@ -1,8 +1,10 @@
-recursive-include grblas *.py
+recursive-include graphblas *.py
+prune docs
+prune scripts
 include setup.py
+include conftest.py
 include README.md
 include LICENSE
 include MANIFEST.in
-include versioneer.py
-include grblas/_version.py
-include grblas/grblas.yaml
+include graphblas/graphblas.yaml
+include graphblas/tests/pickle*.pkl

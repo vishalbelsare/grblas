@@ -1,0 +1,33 @@
+donfig
+numba
+suitesparse-graphblas
+pyyaml
+# For repr
+pandas
+# For I/O
+awkward
+fast_matrix_market
+networkx
+scipy
+sparse
+# For viz
+datashader
+hvplot
+matplotlib
+# For linting
+pre-commit
+# For testing
+packaging
+pytest-cov
+tomli
+# For debugging
+icecream
+ipykernel
+ipython
+# For type annotations
+mypy
+# For building docs
+nbsphinx
+numpydoc
+pydata-sphinx-theme
+sphinx-panels
